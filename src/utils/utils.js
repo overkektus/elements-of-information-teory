@@ -15,7 +15,7 @@ const getPersent = (results) => {
     if(element) trueCount++
   });
   let persent = (trueCount * 100)/results.length;
-  return persent.toFixed(1);
+  return persent;
 };
 
 const log = (x, base) => (Math.log(x) / Math.log(base));
