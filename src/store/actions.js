@@ -1,0 +1,3 @@
+export const MAKE_CALCULATION = 'MAKE_CALCULATION';
+
+export const DELETE_RESULT = 'DELETE_RESULT';
